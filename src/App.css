@@ -38,7 +38,7 @@ footer {
 }
 
 .decor {
-  position:fixed;
+  position: absolute;
   right: 0px;
   top:0px;
 }
@@ -59,4 +59,19 @@ footer {
 .row {
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    padding-left: 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .decor {
+    height: 100px;
+  }
 }
