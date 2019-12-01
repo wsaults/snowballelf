@@ -1,0 +1,62 @@
+/* 
+red: BB010B
+darkred: 4C191B
+darkgreen: 006F57
+green: 72B01D
+white: FAF8F8
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap');
+
+h1 {
+  margin: 0;
+  color: darkgreen;
+  padding-left: 4rem;
+}
+
+h2 {
+  margin: 0;
+  color: #BB010B;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  position:fixed;
+  bottom:-20px;
+}
+
+.App {
+  border-collapse: collapse;
+  background-color: #FAF8F8;
+  padding-bottom: 2rem;
+}
+
+.App-header {
+  height: 3rem;
+  padding: 1rem;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+.decor {
+  position:fixed;
+  right: 0px;
+  top:0px;
+}
+
+.elf {
+  height: 250px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: auto;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
