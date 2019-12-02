@@ -20,6 +20,13 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
+p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 60%;
+  margin: auto;
+}
+
 footer {
   position:fixed;
   bottom:-20px;
@@ -65,6 +72,10 @@ footer {
 
   h1 {
     padding-left: 1rem;
+  }
+
+  p {
+    width: 90%;
   }
 
   .row {

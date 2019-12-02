@@ -13,13 +13,13 @@ function App() {
         <h1>Snowball the Elf</h1>
         <img className="decor" src={decor} alt="decor" />
       </header>
-      <div className="day">
-        <h2>December 1st 2019</h2>
-        <div className="row">
-          <img src={dec1a} alt="December 1st Picture 1" />
-          <img src={dec1b} alt="December 1st Picture 2" />
-        </div>
+
+      <div className="row">
+        <p>
+          Welcome to the page that's all about Snowball the Elf! Check back here daily to see what he's been up to.
+        </p>
       </div>
+
       <div className="day">
         <h2>December 2nd 2019</h2>
         <div className="row">
@@ -27,8 +27,11 @@ function App() {
         </div>
       </div>
       <div className="day">
-        <h2>December 3rd 2019</h2>
-        <p>Coming soon!</p>
+        <h2>December 1st 2019</h2>
+        <div className="row">
+          <img src={dec1a} alt="December 1st Picture 1" />
+          <img src={dec1b} alt="December 1st Picture 2" />
+        </div>
       </div>
       <footer>
         <img className="elf" src={elf} alt="elf" />
