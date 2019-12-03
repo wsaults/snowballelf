@@ -68,6 +68,15 @@ footer {
   justify-content: center;
 }
 
+.subtext {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Mountains of Christmas', cursive;
+  color: #006F57;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
 
   h1 {

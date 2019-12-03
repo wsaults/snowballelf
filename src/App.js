@@ -4,6 +4,7 @@ import decor from './images/decor.png';
 import dec1a from './images/dec1a.jpg';
 import dec1b from './images/dec1b.jpg';
 import dec2a from './images/dec2a.jpg';
+import dec3a from './images/dec3a.jpg';
 import './App.css';
 
 function App() {
@@ -21,10 +22,18 @@ function App() {
       </div>
 
       <div className="day">
+        <h2>December 3rd 2019</h2>
+        <div className="row">
+          <img src={dec3a} alt="December 3rd Picture 1" />
+        </div>
+        <p className="subtext">Napping in Isaac's bed</p>
+      </div>
+      <div className="day">
         <h2>December 2nd 2019</h2>
         <div className="row">
           <img src={dec2a} alt="December 2nd Picture 1" />
         </div>
+        <p className="subtext">Diving into Zander's stocking</p>
       </div>
       <div className="day">
         <h2>December 1st 2019</h2>
@@ -32,6 +41,7 @@ function App() {
           <img src={dec1a} alt="December 1st Picture 1" />
           <img src={dec1b} alt="December 1st Picture 2" />
         </div>
+        <p className="subtext">Snowball has arrived!</p>
       </div>
       <footer>
         <img className="elf" src={elf} alt="elf" />
