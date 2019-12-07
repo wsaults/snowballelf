@@ -9,6 +9,7 @@ import dec4a from './images/dec4a.jpg';
 import dec5a from './images/dec5a.jpg';
 import dec5b from './images/dec5b.jpg';
 import dec6a from './images/dec6a.jpg';
+import dec7a from './images/dec7a.jpg';
 import './App.css';
 
 function App() {
@@ -25,6 +26,13 @@ function App() {
         </p>
       </div>
 
+      <div className="day">
+        <h2>December 7th 2019</h2>
+        <div className="row">
+          <img src={dec7a} alt="December 7th" />
+        </div>
+        <p className="subtext">What's cookin'?</p>
+      </div>
       <div className="day">
         <h2>December 6th 2019</h2>
         <div className="row">
